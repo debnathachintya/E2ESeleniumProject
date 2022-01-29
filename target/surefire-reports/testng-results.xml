@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="15434" started-at="2022-01-29T16:07:13 IST" finished-at="2022-01-29T16:07:29 IST">
+    <groups>
+    </groups>
+    <test name="Home Page Test" duration-ms="8438" started-at="2022-01-29T16:07:13 IST" finished-at="2022-01-29T16:07:22 IST">
+      <class name="testCases.HomePage">
+        <test-method status="PASS" signature="setup()[pri:0, instance:testCases.HomePage@46fa7c39]" name="setup" is-config="true" duration-ms="3154" started-at="2022-01-29T16:07:13 IST" finished-at="2022-01-29T16:07:16 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="basePageNavigation(java.lang.String,java.lang.String)[pri:0, instance:testCases.HomePage@46fa7c39]" name="basePageNavigation" duration-ms="2931" started-at="2022-01-29T16:07:16 IST" data-provider="getData" finished-at="2022-01-29T16:07:19 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[restricteduser@qw.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[password]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- basePageNavigation -->
+        <test-method status="PASS" signature="basePageNavigation(java.lang.String,java.lang.String)[pri:0, instance:testCases.HomePage@46fa7c39]" name="basePageNavigation" duration-ms="2192" started-at="2022-01-29T16:07:19 IST" data-provider="getData" finished-at="2022-01-29T16:07:22 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[nonrestricteduser@qw.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[newpassword]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- basePageNavigation -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:testCases.HomePage@46fa7c39]" name="tearDown" is-config="true" duration-ms="120" started-at="2022-01-29T16:07:22 IST" finished-at="2022-01-29T16:07:22 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testCases.HomePage -->
+    </test> <!-- Home Page Test -->
+    <test name="Validate Title Test" duration-ms="3141" started-at="2022-01-29T16:07:22 IST" finished-at="2022-01-29T16:07:25 IST">
+      <class name="testCases.ValidateTitle">
+        <test-method status="PASS" signature="setup()[pri:0, instance:testCases.ValidateTitle@10289886]" name="setup" is-config="true" duration-ms="2985" started-at="2022-01-29T16:07:22 IST" finished-at="2022-01-29T16:07:25 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="titlePageNavigation()[pri:0, instance:testCases.ValidateTitle@10289886]" name="titlePageNavigation" duration-ms="56" started-at="2022-01-29T16:07:25 IST" finished-at="2022-01-29T16:07:25 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- titlePageNavigation -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:testCases.ValidateTitle@10289886]" name="tearDown" is-config="true" duration-ms="99" started-at="2022-01-29T16:07:25 IST" finished-at="2022-01-29T16:07:25 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testCases.ValidateTitle -->
+    </test> <!-- Validate Title Test -->
+    <test name="Validate Navigation Test" duration-ms="3256" started-at="2022-01-29T16:07:25 IST" finished-at="2022-01-29T16:07:29 IST">
+      <class name="testCases.ValidateNavigationBar">
+        <test-method status="PASS" signature="setup()[pri:0, instance:testCases.ValidateNavigationBar@7068e664]" name="setup" is-config="true" duration-ms="3030" started-at="2022-01-29T16:07:25 IST" finished-at="2022-01-29T16:07:28 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="pageNavigationBar()[pri:0, instance:testCases.ValidateNavigationBar@7068e664]" name="pageNavigationBar" duration-ms="89" started-at="2022-01-29T16:07:28 IST" finished-at="2022-01-29T16:07:29 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- pageNavigationBar -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:testCases.ValidateNavigationBar@7068e664]" name="tearDown" is-config="true" duration-ms="136" started-at="2022-01-29T16:07:29 IST" finished-at="2022-01-29T16:07:29 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testCases.ValidateNavigationBar -->
+    </test> <!-- Validate Navigation Test -->
+  </suite> <!-- Suite -->
+</testng-results>

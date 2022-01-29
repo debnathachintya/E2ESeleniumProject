@@ -1,0 +1,3 @@
+16:07:28.986 [main] INFO  testCases.ValidateNavigationBar - Driver is initialized
+16:07:29.077 [main] INFO  testCases.ValidateNavigationBar - Navigation Bar is Displayed
+16:07:29.214 [main] INFO  testCases.ValidateNavigationBar - Driver is closed

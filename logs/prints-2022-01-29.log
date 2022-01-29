@@ -1,0 +1,27 @@
+16:07:14.563 [main] DEBUG io.netty.buffer.ByteBufUtil - -Dio.netty.threadLocalDirectBufferSize: 0
+16:07:14.565 [main] DEBUG io.netty.buffer.ByteBufUtil - -Dio.netty.maxThreadLocalCharBufferSize: 16384
+16:07:15.367 [Forwarding newSession on session null to remote] DEBUG io.netty.channel.DefaultChannelId - -Dio.netty.processId: 19780 (auto-detected)
+16:07:15.368 [Forwarding newSession on session null to remote] DEBUG io.netty.util.NetUtil - -Djava.net.preferIPv4Stack: false
+16:07:15.369 [Forwarding newSession on session null to remote] DEBUG io.netty.util.NetUtil - -Djava.net.preferIPv6Addresses: false
+16:07:15.598 [Forwarding newSession on session null to remote] DEBUG io.netty.util.NetUtilInitializations - Loopback interface: lo (Software Loopback Interface 1, 127.0.0.1)
+16:07:15.600 [Forwarding newSession on session null to remote] DEBUG io.netty.util.NetUtil - Failed to get SOMAXCONN from sysctl and file \proc\sys\net\core\somaxconn. Default: 200
+16:07:15.835 [Forwarding newSession on session null to remote] DEBUG io.netty.channel.DefaultChannelId - -Dio.netty.machineId: f4:96:34:ff:fe:fc:82:85 (auto-detected)
+16:07:15.884 [AsyncHttpClient-1-2] DEBUG io.netty.buffer.AbstractByteBuf - -Dio.netty.buffer.checkAccessible: true
+16:07:15.884 [AsyncHttpClient-1-2] DEBUG io.netty.buffer.AbstractByteBuf - -Dio.netty.buffer.checkBounds: true
+16:07:15.884 [AsyncHttpClient-1-2] DEBUG io.netty.util.ResourceLeakDetectorFactory - Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@56716367
+16:07:15.906 [AsyncHttpClient-1-2] DEBUG io.netty.util.Recycler - -Dio.netty.recycler.maxCapacityPerThread: 4096
+16:07:15.907 [AsyncHttpClient-1-2] DEBUG io.netty.util.Recycler - -Dio.netty.recycler.maxSharedCapacityFactor: 2
+16:07:15.907 [AsyncHttpClient-1-2] DEBUG io.netty.util.Recycler - -Dio.netty.recycler.linkCapacity: 16
+16:07:15.907 [AsyncHttpClient-1-2] DEBUG io.netty.util.Recycler - -Dio.netty.recycler.ratio: 8
+16:07:15.907 [AsyncHttpClient-1-2] DEBUG io.netty.util.Recycler - -Dio.netty.recycler.delayedQueue.ratio: 8
+16:07:16.566 [AsyncHttpClient-1-2] DEBUG io.netty.handler.codec.compression.Brotli - brotli4j not in the classpath; Brotli support will be unavailable.
+16:07:16.726 [main] DEBUG io.netty.util.internal.ThreadLocalRandom - -Dio.netty.initialSeedUniquifier: 0x5ce9e1b3dec1d889
+16:07:16.937 [main] INFO  testCases.HomePage - Driver is initialized
+16:07:19.274 [main] INFO  testCases.HomePage - Entered Emailrestricteduser@qw.com
+16:07:19.357 [main] INFO  testCases.HomePage - Entered Passwordpassword
+16:07:21.457 [main] INFO  testCases.HomePage - Entered Emailnonrestricteduser@qw.com
+16:07:21.550 [main] INFO  testCases.HomePage - Entered Passwordnewpassword
+16:07:22.218 [main] INFO  testCases.HomePage - Driver is closed
+16:07:25.655 [main] INFO  testCases.ValidateTitle - Driver is initialized
+16:07:25.711 [main] INFO  testCases.ValidateTitle - Successfully validated text message
+16:07:25.811 [main] INFO  testCases.ValidateTitle - Driver is closed
