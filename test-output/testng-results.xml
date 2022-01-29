@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="10374" started-at="2022-01-29T10:35:44Z" finished-at="2022-01-29T10:35:55Z">
+  <suite name="Suite" duration-ms="15422" started-at="2022-01-29T12:26:58Z" finished-at="2022-01-29T12:27:14Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="10374" started-at="2022-01-29T10:35:44Z" finished-at="2022-01-29T10:35:55Z">
+    <test name="Home Page Test" duration-ms="8354" started-at="2022-01-29T12:26:58Z" finished-at="2022-01-29T12:27:07Z">
       <class name="testCases.HomePage">
-        <test-method status="PASS" signature="setup()[pri:0, instance:testCases.HomePage@7b02881e]" name="setup" is-config="true" duration-ms="3470" started-at="2022-01-29T10:35:44Z" finished-at="2022-01-29T10:35:48Z">
+        <test-method status="PASS" signature="setup()[pri:0, instance:testCases.HomePage@7b02881e]" name="setup" is-config="true" duration-ms="3105" started-at="2022-01-29T12:26:58Z" finished-at="2022-01-29T12:27:01Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="basePageNavigation(java.lang.String, java.lang.String)[pri:0, instance:testCases.HomePage@7b02881e]" name="basePageNavigation" duration-ms="4238" started-at="2022-01-29T10:35:48Z" data-provider="getData" finished-at="2022-01-29T10:35:52Z">
+        <test-method status="PASS" signature="basePageNavigation(java.lang.String, java.lang.String)[pri:0, instance:testCases.HomePage@7b02881e]" name="basePageNavigation" duration-ms="2896" started-at="2022-01-29T12:27:01Z" data-provider="getData" finished-at="2022-01-29T12:27:04Z">
           <params>
             <param index="0">
               <value>
@@ -27,7 +27,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- basePageNavigation -->
-        <test-method status="PASS" signature="basePageNavigation(java.lang.String, java.lang.String)[pri:0, instance:testCases.HomePage@7b02881e]" name="basePageNavigation" duration-ms="2373" started-at="2022-01-29T10:35:52Z" data-provider="getData" finished-at="2022-01-29T10:35:54Z">
+        <test-method status="PASS" signature="basePageNavigation(java.lang.String, java.lang.String)[pri:0, instance:testCases.HomePage@7b02881e]" name="basePageNavigation" duration-ms="2170" started-at="2022-01-29T12:27:04Z" data-provider="getData" finished-at="2022-01-29T12:27:06Z">
           <params>
             <param index="0">
               <value>
@@ -43,11 +43,43 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- basePageNavigation -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:testCases.HomePage@7b02881e]" name="tearDown" is-config="true" duration-ms="258" started-at="2022-01-29T10:35:54Z" finished-at="2022-01-29T10:35:55Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:testCases.HomePage@7b02881e]" name="tearDown" is-config="true" duration-ms="153" started-at="2022-01-29T12:27:06Z" finished-at="2022-01-29T12:27:07Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- testCases.HomePage -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+    </test> <!-- Home Page Test -->
+    <test name="Validate Title Test" duration-ms="3263" started-at="2022-01-29T12:27:07Z" finished-at="2022-01-29T12:27:10Z">
+      <class name="testCases.ValidateTitle">
+        <test-method status="PASS" signature="setup()[pri:0, instance:testCases.ValidateTitle@71687585]" name="setup" is-config="true" duration-ms="3066" started-at="2022-01-29T12:27:07Z" finished-at="2022-01-29T12:27:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="titlePageNavigation()[pri:0, instance:testCases.ValidateTitle@71687585]" name="titlePageNavigation" duration-ms="51" started-at="2022-01-29T12:27:10Z" finished-at="2022-01-29T12:27:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- titlePageNavigation -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:testCases.ValidateTitle@71687585]" name="tearDown" is-config="true" duration-ms="144" started-at="2022-01-29T12:27:10Z" finished-at="2022-01-29T12:27:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testCases.ValidateTitle -->
+    </test> <!-- Validate Title Test -->
+    <test name="Validate Navigation Test" duration-ms="3280" started-at="2022-01-29T12:27:10Z" finished-at="2022-01-29T12:27:14Z">
+      <class name="testCases.ValidateNavigationBar">
+        <test-method status="PASS" signature="setup()[pri:0, instance:testCases.ValidateNavigationBar@7bbc8656]" name="setup" is-config="true" duration-ms="3043" started-at="2022-01-29T12:27:10Z" finished-at="2022-01-29T12:27:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="pageNavigationBar()[pri:0, instance:testCases.ValidateNavigationBar@7bbc8656]" name="pageNavigationBar" duration-ms="80" started-at="2022-01-29T12:27:13Z" finished-at="2022-01-29T12:27:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- pageNavigationBar -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:testCases.ValidateNavigationBar@7bbc8656]" name="tearDown" is-config="true" duration-ms="155" started-at="2022-01-29T12:27:14Z" finished-at="2022-01-29T12:27:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testCases.ValidateNavigationBar -->
+    </test> <!-- Validate Navigation Test -->
+  </suite> <!-- Suite -->
 </testng-results>
